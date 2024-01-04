@@ -1,4 +1,4 @@
-package com.droiddude.apps.roomdbsample
+package com.droiddude.apps.roomdbsample.ui
 
 import com.droiddude.apps.roomdbsample.data.Contact
 import com.droiddude.apps.roomdbsample.interfaces.SortType

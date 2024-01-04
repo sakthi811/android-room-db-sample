@@ -1,4 +1,4 @@
-package com.droiddude.apps.roomdbsample.ui.theme
+package com.droiddude.apps.roomdbsample.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -13,7 +13,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.droiddude.apps.roomdbsample.ContactState
 import com.droiddude.apps.roomdbsample.interfaces.ContactEvent
 
 @OptIn(ExperimentalMaterial3Api::class)

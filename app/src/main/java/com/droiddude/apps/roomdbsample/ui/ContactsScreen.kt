@@ -1,4 +1,4 @@
-package com.droiddude.apps.roomdbsample
+package com.droiddude.apps.roomdbsample.ui
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.clickable
@@ -33,7 +33,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.droiddude.apps.roomdbsample.interfaces.ContactEvent
 import com.droiddude.apps.roomdbsample.interfaces.SortType
-import com.droiddude.apps.roomdbsample.ui.theme.AddContactDialog
 
 @OptIn(ExperimentalMaterial3Api::class)
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")

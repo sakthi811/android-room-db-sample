@@ -10,6 +10,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.room.Room
 import com.droiddude.apps.roomdbsample.data.ContactsDatabase
+import com.droiddude.apps.roomdbsample.ui.ContactsScreen
+import com.droiddude.apps.roomdbsample.ui.ContactsViewModel
 import com.droiddude.apps.roomdbsample.ui.theme.RoomDBSampleTheme
 
 class MainActivity : ComponentActivity() {

@@ -1,4 +1,4 @@
-package com.droiddude.apps.roomdbsample
+package com.droiddude.apps.roomdbsample.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -8,7 +8,6 @@ import com.droiddude.apps.roomdbsample.interfaces.ContactEvent
 import com.droiddude.apps.roomdbsample.interfaces.SortType
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
-import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.stateIn
@@ -57,7 +56,7 @@ class ContactsViewModel(
                 viewModelScope.launch {
                     dao.upsertContact(contact)
                 }
-                _state.update {it.copy(
+                _state.update { it.copy(
                     isAddingContact = false,
                     firstName = "",
                     lastName = "",
